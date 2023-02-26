@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.font {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+
+.table--hidden {
+    display: none;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+.sectionOne {
+    background-color: #a2ccfd;
+    border: 5px solid #117cf7;
+    margin: 20px auto;
+    padding-left: 0px;
+    padding: 10px;
+}
+
+.sectionOne__paragraph {
+    font-weight: bold;
+}
+
+.sectionOne__list {
+    padding-left: 0px;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.sectionOne__listItem {
+    margin: 20px;
+    list-style-position: inside;
+}
+
+.sectionOne__list--square {
+    list-style-type: square;
+    list-style-position: inside;
+}
