@@ -1,15 +1,20 @@
-let button = document.querySelector(".js-button");
-let jstable = document.querySelector(".js-table");
+{
+    const onTableDelete = () => {
 
+        const table = document.querySelector(".js-table");
+        let actionName = document.querySelector(".actionName");
+        table.classList.toggle("table--hidden");
+        actionName.innerText = table.classList.contains("table--hidden") ? "Dodaj" : "Usuń";
 
-
-button.addEventListener("click", () => {
-    if (button.innerText === "Dodaj tabelę do strony") {
-        button.innerText = "Usuń tabelę ze strony";
-    } else if (button.innerText === "Usuń tabelę ze strony") {
-        button.innerText = "Dodaj tabelę do strony";
     }
-    jstable.classList.toggle("table--hidden");
-})
+
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", onTableDelete)
+    }
+    init();
+
+}
+
 
 
