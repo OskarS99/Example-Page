@@ -1,184 +1,219 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="js/sricpt.js"></script>
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
-    <link href="css/header.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/navigation.css" rel="stylesheet">
-    <link href="css/section.css" rel="stylesheet">
-    <link href="css/table.css" rel="stylesheet">
-    <link href="css/sectionOne.css" rel="stylesheet">
-    <link href="css/article.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/section.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/sectionOne.css" rel="stylesheet" />
+    <link href="css/article.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <title>Najlepsze w piłce nożnej</title>
-</head>
+  </head>
 
-<body class="font">
+  <body class="container">
     <header class="header">
-        <h1>"Naj" w piłce nożej</h1>
+      <h1>"Naj" w piłce nożej</h1>
     </header>
+
     <nav class="navigation">
-        <ul class="navigation__list">
-            <li class="navigation__listItem "><a class="navigation__link" href="#liga-mistrzow">Liga Mistrzów</a></li>
-            <li class="navigation__listItem"><a class="navigation__link" href="#rekordy-transferowe">Rekordy Trasnferowe</a></li>
-            <li class="navigation__listItem"><a class="navigation__link" href="#zlota-pilka">Złota piłka</a></li>
-            <li class="navigation__listItem"><a class="navigation__link" href="#stadiony">Stadiony</a></li>
-
-        </ul>
+      <ul class="navigation__list">
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#liga-mistrzow">Liga Mistrzów</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#rekordy-transferowe"
+            >Rekordy Trasnferowe</a
+          >
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#zlota-pilka">Złota piłka</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#stadiony">Stadiony</a>
+        </li>
+      </ul>
     </nav>
+
     <main class="main">
-        <section class="section" id="rekordy-transferowe">
-            <button class="js-button"><span class="actionName">Usuń</span> tabelę</button>
-            <div class="section__container">
-                <table class="table js-table">
-                    <caption class="table__caption">5 najdroższych transferów w piłce nożnej</caption>
-                    <tr class="table__row">
-                        <th scope="col" class="table__cell--header">Piłkarz</th>
-                        <th scope="col" class="table__cell--header">Kwota</th>
-                        <th scope="col" class="table__cell-header">Klub pozyskujący</th>
-                    </tr>
-                    <tr class="table__row">
-                        <th scope="row" class="table__cell--header">Neymar Jr.</th>
-                        <td class="table__cell">222mln $</td>
-                        <td class="table__cell" rowspan="2">PSG</td>
-                    </tr>
-                    <tr class="table__row">
-                        <th scope="row" class="table__cell--header">Kylian Mbappe</th>
-                        <td class="table__cell"> 180mln $</td>
-                    </tr>
-                    <tr class="table__row">
-                        <th scope="row" class="table__cell--header">Ousmane Dembele</th>
-                        <td class="table__cell">140mln $</td>
-                        <td class="table__cell" rowspan="2">FC Barceloan</td>
-                    </tr>
-                    <tr class="table__row">
-                        <th scope="row" class="table__cell--header">Philippe Coutinho</th>
-                        <td class="table__cell">135mln $</td>
-                    </tr>
-                    <tr class="table_row">
-                        <th scope="row" class="table__cell--header">Joaa Felix</th>
-                        <td class="table__cell">127mln $</td>
-                        <td class="table__cell" rowspan="2">Atletico Madryt</td>
-                    </tr>
-                </table>
-            </div>
-        </section>
+      <section class="section" id="rekordy-transferowe">
+        <button class="js-button section__button">
+          <span class="actionName">Usuń</span> tabelę
+        </button>
+        <div class="section__container">
+          <table class="table js-table">
+            <caption class="table__caption">
+              5 najdroższych transferów w piłce nożnej
+            </caption>
+            <tr class="table__row">
+              <th scope="col" class="table__cell--header">Piłkarz</th>
+              <th scope="col" class="table__cell--header">Kwota</th>
+              <th scope="col" class="table__cell--header">Klub pozyskujący</th>
+            </tr>
 
+            <tr class="table__row">
+              <th scope="row" class="table__cell--header">Neymar Jr.</th>
+              <td class="table__cell">222mln $</td>
+              <td class="table__cell" rowspan="2">PSG</td>
+            </tr>
+            <tr class="table__row">
+              <th scope="row" class="table__cell--header">Kylian Mbappe</th>
+              <td class="table__cell">180mln $</td>
+            </tr>
+            <tr class="table__row">
+              <th scope="row" class="table__cell--header">Ousmane Dembele</th>
+              <td class="table__cell">140mln $</td>
+              <td class="table__cell" rowspan="2">FC Barcelona</td>
+            </tr>
+            <tr class="table__row">
+              <th scope="row" class="table__cell--header">Philippe Coutinho</th>
+              <td class="table__cell">135mln $</td>
+            </tr>
+            <tr class="table_row">
+              <th scope="row" class="table__cell--header">Joao Felix</th>
+              <td class="table__cell">127mln $</td>
+              <td class="table__cell" rowspan="2">Atletico Madryt</td>
+            </tr>
+          </table>
+        </div>
+      </section>
 
-        <section class="sectionOne" id="liga-mistrzow">
-            <p class="sectionOne__paragraph">Najwiecej zdobytych pucharów ligi mistrzów TOP3</p>
+      <section class="sectionOne" id="liga-mistrzow">
+        <p class="sectionOne__title">
+          Najwiecej zdobytych pucharów ligi mistrzów TOP3
+        </p>
 
-            <ol class="sectionOne__list">
-                <li class="sectionOne__listItem">Real Madryt - 14</li>
-                <li class="sectionOne__listItem">AC Milan - 7</li>
-                <li class="sectionOne__listItem">Liverpool/Bayern Monachium - 6</li>
-            </ol>
+        <ol class="sectionOne__list">
+          <li class="sectionOne__listItem">Real Madryt - 14</li>
+          <li class="sectionOne__listItem">AC Milan - 7</li>
+          <li class="sectionOne__listItem">Liverpool/Bayern Monachium - 6</li>
+        </ol>
 
-            <p class="sectionOne__paragraph">Zawodnicy z największą ilością zdobytych pucharów ligi mistrzów</p>
-            <p>6 zdobytych pucharóu</p>
-            <ul class="sectionOne__list">
-                <li class="sectionOne__listItem">Francisco Gento</li>
-            </ul>
-            <p>5 zdobytych pucharów</p>
-            <ul class="sectionOne__list sectionOne_list--square">
-                <li class="sectionOne__listItem">Cristiano Ronaldo</li>
-                <li class="sectionOne__listItem">Marcelo</li>
-                <li class="sectionOne__listItem">Gareth Bale</li>
-                <li class="sectionOne__listItem">Karim Banzema</li>
-                <li class="sectionOne__listItem">Luka Modrić</li>
-                <li class="sectionOne__listItem">Casemiro</li>
-            </ul>
-        </section>
+        <p class="sectionOne__title">
+          Zawodnicy z największą ilością zdobytych pucharów ligi mistrzów
+        </p>
+        <p class="sectionOne__paragraph">6 zdobytych pucharów</p>
+        <ul class="sectionOne__list">
+          <li class="sectionOne__listItem">Francisco Gento</li>
+        </ul>
 
-        <section class="sectionOne" id="zlota-pilka">
-            <p class="sectionOne__paragraph"> Piłkarze z największa ilością zdobytych złoty piłek</p>
-            <ol class="sectionOne__list">
-                <li class="sectionOne__listItem">
-                    Lionel Messi
-                    <ul class="sectionOne__list">
-                        <li class="sectionOne__listItem">5 złotych pilek w Fc Barcelonie</li>
-                        <li class="sectionOne__listItem">1 złota piłka w PSG</li>
-                    </ul>
-                </li>
-                <li class="sectionOne__listItem">
-                    Cristiano Ronaldo
-                    <ul class="sectionOne__list">
-                        <li class="sectionOne__listItem">
-                            4 złote piłki w Realu Madryt
-                        </li>
-                        <li class="sectionOne__listItem">
-                            1 złota piłka w Manchestrze United
-                        </li>
-                    </ul>
-                </li>
-                <li class="sectionOne__listItem">
-                    Johan Crauff
-                    <ul class="sectionOne__list">
-                        <li class="sectionOne__listItem">2 złote piłki w Fc Barcelonie</li>
-                        <li class="sectionOne__listItem">1 złota piłka w AFC Ajax</li>
-                    </ul>
-                </li>
-                <li class="sectionOne__listItem">
-                    Michel Platini
-                    <ul class="sectionOne__list">
-                        <li class="sectionOne__listItem">3 złote piłke zdobyte w Juventusie</li>
-                    </ul>
-                </li>
-                <li class="sectionOne__listItem">
-                    Marco van basten
-                    <ul class="sectionOne__list">
-                        <li class="sectionOne__listItem">3 złote piłki zdobyte w AC Milan</li>
-                    </ul>
-                </li>
-            </ol>
-        </section>
-        <section class="sectionOne" id="stadiony">
-            <h2 class="sectionOne__paragraph">Największe stadiony klubowe na świecie</h2>
-            <article class="article">
-                <p class="article__paragraph">Camp Nou</p>
-                <p> Stadion piłkarski w Barcelonie, w Katalonii, w Hiszpanii, na którym są rozgrywane mecze FC
-                    Barcelona. Jego trybuny mieszczą 99 354 osób, czyniąc go największym piłkarskim stadionem w Europie
-                    i jednym z największych na świecie. Na jego trybunach widoczna jest dewiza klubu, Més
-                    que un club. Na
-                    stadionie rozgrywane są także mecze reprezentacji Katalonii w piłce nożnej, a niegdyś na murawie
-                    obiektu występowała reprezentacja Hiszpanii.</p>
-                <p class="article__paragraph">Estadio Santiago Bernabéu</p>
-                <p> Stadion piłkarski w stolicy Hiszpanii, Madrycie. Jest macierzystym obiektem Realu Madryt, mecze
-                    rozgrywa na nim także reprezentacja Hiszpanii. 22 maja 2010 roku odbył się tu 55. finał Ligi
-                    Mistrzów UEFA.</p>
-                <p class="article__paragraph">Signal Iduna Park</p>
-                <p>
-                    Stadion piłkarski w Dortmundzie, na którym rozgrywane są mecze klubu piłkarskiego Borussia Dortmund.
-                    Jest szóstym co do wielkości stadionem w Europie oraz największym stadionem w Niemczech.
-                </p>
-                <p class="article__paragraph">San Siro</p>
-                <p>
-                    Stadion piłkarski w Mediolanie. Budowa stadionu została rozpoczęta w 1925 w mediolańskiej dzielnicy
-                    San Siro, stąd też jego nazwa. Pomysł jego budowy był dziełem ówczesnego prezydenta Milanu, Piero
-                    Pirellego. Stadion został zaprojektowany z myślą wyłącznie o piłce nożnej
-                </p>
-                <p class="article__paragraph">Old Trafford</p>
-                <p>
-                    Stadion Manchesteru United, zwyczajowo nazwany Teatrem Marzeń. Dzielnica Manchesteru, w której
-                    położony jest stadion i od której wzięła się jego nazwa, znajduje się na zachód od centrum miasta.
-                </p>
-            </article>
+        <p class="sectionOne__paragraph">5 zdobytych pucharów</p>
+        <ul class="sectionOne__list sectionOne_list--square">
+          <li class="sectionOne__listItem">Cristiano Ronaldo</li>
+          <li class="sectionOne__listItem">Marcelo</li>
+          <li class="sectionOne__listItem">Gareth Bale</li>
+          <li class="sectionOne__listItem">Karim Banzema</li>
+          <li class="sectionOne__listItem">Luka Modrić</li>
+          <li class="sectionOne__listItem">Casemiro</li>
+        </ul>
+      </section>
 
-        </section>
+      <section class="sectionOne" id="zlota-pilka">
+        <p class="sectionOne__title">
+          Piłkarze z największa ilością zdobytych złoty piłek
+        </p>
 
+        <p class="sectionOne__paragraph">Lionel Messi</p>
+        <ul class="sectionOne__list">
+          <li class="sectionOne__listItem">5 złotych pilek w Fc Barcelonie</li>
+          <li class="sectionOne__listItem">1 złota piłka w PSG</li>
+        </ul>
+
+        <p class="sectionOne__paragraph">Cristiano Ronaldo</p>
+        <ul class="sectionOne__list">
+          <li class="sectionOne__listItem">4 złote piłki w Realu Madryt</li>
+          <li class="sectionOne__listItem">
+            1 złota piłka w Manchestrze United
+          </li>
+        </ul>
+
+        <p class="sectionOne__paragraph">Johan Crauff</p>
+        <ul class="sectionOne__list">
+          <li class="sectionOne__listItem">2 złote piłki w Fc Barcelonie</li>
+          <li class="sectionOne__listItem">1 złota piłka w AFC Ajax</li>
+        </ul>
+
+        <p class="sectionOne__paragraph">Michael Platini</p>
+        <ul class="sectionOne__list">
+          <li class="sectionOne__listItem">
+            3 złote piłke zdobyte w Juventusie
+          </li>
+        </ul>
+
+        <p class="sectionOne__paragraph">Marco van basten</p>
+        <ul class="sectionOne__list">
+          <li class="sectionOne__listItem">3 złote piłki zdobyte w AC Milan</li>
+        </ul>
+      </section>
+
+      <section class="sectionOne" id="stadiony">
+        <h2 class="sectionOne__title">
+          Największe stadiony klubowe na świecie
+        </h2>
+        <article class="article">
+          <p class="article__paragraph">Camp Nou</p>
+          <p>
+            Stadion piłkarski w Barcelonie, w Katalonii, w Hiszpanii, na którym
+            są rozgrywane mecze FC Barcelona. Jego trybuny mieszczą 99 354 osób,
+            czyniąc go największym piłkarskim stadionem w Europie i jednym z
+            największych na świecie. Na jego trybunach widoczna jest dewiza
+            klubu, Més que un club. Na stadionie rozgrywane są także mecze
+            reprezentacji Katalonii w piłce nożnej, a niegdyś na murawie obiektu
+            występowała reprezentacja Hiszpanii.
+          </p>
+          <p class="article__paragraph">Estadio Santiago Bernabéu</p>
+          <p>
+            Stadion piłkarski w stolicy Hiszpanii, Madrycie. Jest macierzystym
+            obiektem Realu Madryt, mecze rozgrywa na nim także reprezentacja
+            Hiszpanii. 22 maja 2010 roku odbył się tu 55. finał Ligi Mistrzów
+            UEFA.
+          </p>
+          <p class="article__paragraph">Signal Iduna Park</p>
+          <p>
+            Stadion piłkarski w Dortmundzie, na którym rozgrywane są mecze klubu
+            piłkarskiego Borussia Dortmund. Jest szóstym co do wielkości
+            stadionem w Europie oraz największym stadionem w Niemczech.
+          </p>
+          <p class="article__paragraph">San Siro</p>
+          <p>
+            Stadion piłkarski w Mediolanie. Budowa stadionu została rozpoczęta w
+            1925 w mediolańskiej dzielnicy San Siro, stąd też jego nazwa. Pomysł
+            jego budowy był dziełem ówczesnego prezydenta Milanu, Piero
+            Pirellego. Stadion został zaprojektowany z myślą wyłącznie o piłce
+            nożnej
+          </p>
+          <p class="article__paragraph">Old Trafford</p>
+          <p>
+            Stadion Manchesteru United, zwyczajowo nazwany Teatrem Marzeń.
+            Dzielnica Manchesteru, w której położony jest stadion i od której
+            wzięła się jego nazwa, znajduje się na zachód od centrum miasta.
+          </p>
+        </article>
+      </section>
     </main>
-    <footer class="footer">Chcesz uzyskać wiecej informcji na temat piłki nożnej? Zapisz się na newsletter.</footer>
-</body>
 
+    <footer class="footer">
+      Chcesz uzyskać wiecej informcji na temat piłki nożnej? Zapisz się na
+      newsletter.
+    </footer>
+  </body>
 </html>
