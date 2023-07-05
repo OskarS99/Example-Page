@@ -1,12 +1,15 @@
-
 .section {
-    margin-left: auto;
+  margin-top: 20px;
+}
+
+.section__button {
+  padding: 10px;
+  color: white;
+  background-color: #117cf7;
+  border: none;
 }
 
 .section__container {
-    overflow-x: auto;
+  margin-top: 20px;
+  overflow-x: auto;
 }
-
-
-
-
