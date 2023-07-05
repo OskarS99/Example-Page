@@ -1,23 +1,18 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*, ::after, ::before {
-    box-sizing: inherit;
+*,
+::after,
+::before {
+  box-sizing: inherit;
 }
 
-.font {
-    font-family: 'Roboto', sans-serif;
-    margin: 10px;
+.container {
+  font-family: "Roboto", sans-serif;
+  margin: 10px;
 }
 
 .table--hidden {
-    display: none;
+  display: none;
 }
-
-
-
-
-
-
-
