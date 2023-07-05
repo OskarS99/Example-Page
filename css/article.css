@@ -1,8 +1,4 @@
 .article__paragraph {
-    font-weight: bold;
-    color: #043164;
-}
-
-.article {
-    margin-left: 15px;
+  font-weight: bold;
+  color: #043164;
 }
