@@ -1,27 +1,27 @@
 .sectionOne {
-    background-color: #a2ccfd;
-    border: 5px solid #117cf7;
-    margin: 20px auto;
-    padding-left: 0px;
-    padding: 10px;
+  background-color: #a2ccfd;
+  border: 5px solid #117cf7;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.sectionOne__title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #144883;
 }
 
 .sectionOne__paragraph {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .sectionOne__list {
-    padding-left: 0px;
-    list-style-position: inside;
-    list-style-type: none;
+  padding-left: 0px;
+  list-style-position: inside;
+  list-style-type: none;
 }
 
 .sectionOne__listItem {
-    margin: 20px;
-    list-style-position: inside;
-}
-
-.sectionOne__list--square {
-    list-style-type: square;
-    list-style-position: inside;
+  margin: 20px;
 }
