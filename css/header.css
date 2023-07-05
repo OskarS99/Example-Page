@@ -1,9 +1,9 @@
 .header {
-    max-width: 100%;
-    text-align: center;
-    border: 1px solid grey;
-    background-color: #117cf7;
-    color: white;
-    padding: 5px;
-    margin: 10px auto;
+  max-width: 100%;
+  text-align: center;
+  background-color: #117cf7;
+  border-radius: 15px;
+  color: white;
+  padding: 5px;
+  margin: 10px auto;
 }
