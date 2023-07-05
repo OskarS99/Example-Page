@@ -1,38 +1,38 @@
 .navigation {
-    max-width: 100%;
-    background-color: #5ca8ff;
-    border: 5px solid #117cf7;
-    margin: 40px auto;
-    text-align: center;
+  max-width: 100%;
+  background-color: #5ca8ff;
+  border: 5px solid #117cf7;
+  border-radius: 15px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .navigation__list {
-    padding-left: 0px;
-    list-style-position: inside;
-    list-style-type: none;
+  padding-left: 0px;
+  list-style-position: inside;
+  list-style-type: none;
 }
 
 .navigation__listItem {
-    margin: 20px;
-    list-style-position: inside;
+  display: inline-block;
+  margin: 20px;
+  list-style-position: inside;
 }
 
 .navigation__link {
-    margin: 50px;
-    text-decoration: none;
-    color: #eee;
+  text-decoration: none;
+  color: #eee;
 }
 
 .navigation__link:visited {
-    border: #043164;
+  border: #043164;
 }
 
 .navigation__link:hover {
-    color: #043164;
-    border-bottom: 1px solid;
-    outline: none;
+  color: #043164;
+  outline: none;
 }
 
 .navigation__link:active {
-    color: black;
+  color: black;
 }
